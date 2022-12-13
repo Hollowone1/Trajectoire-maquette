@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content=" La Trajectoire, plateforme de cours en ligne" name="description">
+	<meta content="La Trajectoire" name="author">
+	<meta name="keywords" content="Cours en lignes, plateforme de mise en relation de cours, français, philosophie, mathématiques"/>
+	
+	<!-- Favicon -->
+	<link rel="icon" href="../assets/images/brand/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
+
+	<!-- Title -->
+	<title> La Trajectoire, mise en relation de professeurs et cours en ligne</title>
+
+	<!-- Bootstrap css -->
+	<link id="style" href="../assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+	<!-- Style css -->
+	<link href="../assets/css/style.css" rel="stylesheet" />
+
+	<!-- Plugin Css -->
+	<link href="../assets/css/plugins.css" rel="stylesheet" />
+
+	<!-- Font-awesome  css -->
+	<link href="../assets/css/icons.css" rel="stylesheet"/>
+
+	<!-- Color Skin css -->
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/color-skins/color.css" />
+
+</head>
+
+<body>
+
+	<!--Loader-->
+	<div id="global-loader">
+		<img src="../assets/images/loader.svg" class="loader-img" alt="img">
+	</div><!--/Loader-->
+
+	<!--Topbar-->
+	<div  class="banner-1 cover-image bg-background-1" data-bs-image-src="../assets/images/banners/2.jpg">
+		<!--Topbar-->
+		<div class="header-main">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-sm-4 col-12">
+							<div class="top-bar-start d-flex">
+								<div class="clearfix">
+									<ul class="contact">
+										<li class="me-5 d-lg-none">
+											<a href="javascript:void(0)" class="callnumber text-dark"><span><i class="fa fa-phone me-1"></i>: +425 345 8765</span></a>
+										</li>
+										<li class="dropdown me-5">
+											<a href="javascript:void(0)" class="text-dark" data-bs-toggle="dropdown"><span> Langage <i class="fa fa-caret-down text-muted"></i></span> </a>
+											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+												<a href="javascript:void(0)" class="dropdown-item" >
+													Anglais
+												</a>
+												<a class="dropdown-item" href="javascript:void(0)">
+													Français
+												</a>
+												<a class="dropdown-item" href="javascript:void(0)">
+													Allemand
+												</a>
+												<a href="javascript:void(0)" class="dropdown-item" >
+													Espagnol
+												</a>
+												<a href="javascript:void(0)" class="dropdown-item" >
+													Arabe
+												</a>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-2 col-lg-2 col-sm-8 col-5 d-none d-lg-block">
+							<div class="clearfix text-center">
+								<div class="header-search-logo d-none d-lg-block">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-5 col-lg-5 col-sm-8 col-12">
+							<div class="top-bar-end">
+								<ul class="custom">
+									<li>
+										<a href="register.html" class="text-dark"><i class="fa fa-user me-1"></i> <span>S'inscrire</span></a>
+									</li>
+									<li>
+										<a href="login.html" class="text-dark"><i class="fa fa-sign-in me-1"></i> <span>Se connecter</span></a>
+									</li>
+									<li class="">
+										<a href="Cart.html" class="header-icons-link1"><i class="fa fa-cart-plus"></i>
+										<span class="main-badge1 badge badge-danger badge-pill">3</span></a>
+									</li>
+									<li class="dropdown">
+										<a href="javascript:void(0)" class="text-dark" data-bs-toggle="dropdown"><i class="fa fa-home me-1"></i><span> Tableau de bord<i class="fa fa-caret-down text-white ms-1"></i></span></a>
+										<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+											<a href="mydash.html" class="dropdown-item" >
+												<i class="dropdown-icon icon icon-user"></i> Mon profil
+											</a>
+											<a class="dropdown-item" href="mycourses.html">
+												<i class="dropdown-icon icon icon-speech"></i> Cours
+											</a>
+											<a class="dropdown-item" href="orders.html">
+												<i class="dropdown-icon icon icon-speech"></i> Commandes
+											</a>
+											<a class="dropdown-item" href="settings.html">
+												<i class="dropdown-icon icon icon-bell"></i> Notifications
+											</a>
+											<a href="mydash.html" class="dropdown-item" >
+												<i class="dropdown-icon  icon icon-settings"></i> Paramètres du compte
+											</a>
+											<a class="dropdown-item" href="login.html">
+												<i class="dropdown-icon icon icon-power"></i> Se déconnecter
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /Topbar -->
+		</div>
+	</div>
+	<div  class="banner-1 cover-image bg-background-1" data-bs-image-src="../assets/images/banners/2.jpg">
+		<!--Topbar-->
+		<div class="header-main">
+
+			<!-- Mobile Header -->
+			<div class="sticky">
+				<div class="horizontal-header clearfix ">
+					<div class="container">
+						<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+						<span class="smllogo"><img src="https://via.placeholder.com/120x32.png" width="120" alt="img"/></span>
+						<span class="smllogo-white"><img src="https://via.placeholder.com/120x32.png" width="120" alt="img"/></span>
+						<a href="tel:07 69 50 45 49" class="callusbtn"><i class="icon icon-phone" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /Mobile Header -->
+
+			<!--Horizontal-main -->
+			<div class="horizontal-main header-style1 bg-dark-transparent clearfix p-0 pt-4">
+				<div class="horizontal-mainwrapper container clearfix">
+					<div class="desktoplogo">
+						<a href="index-text-animation.html">
+							<img src="https://via.placeholder.com/149x40.png" alt="img">
+						</a>
+					</div>
+					<div class="desktoplogo-1">
+						<a href="index-text-animation.html">
+							<img src="https://via.placeholder.com/149x40.png" class="header-dark" alt="img">
+							<img src="https://via.placeholder.com/149x40.png" class="header-brand-img header-white" alt="logo">
+						</a>
+					</div>
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+							<li aria-haspopup="true"><a href="usersall.html">Professeurs </a></li>
+							<li aria-haspopup="true"><a href="page-list.html">Cours</a></li>
+							<li aria-haspopup="true"><a href="change-establishement.html">Changer d'établissement</a></li>
+							<li aria-haspopup="true"><a href="shop.html">Boutique</a></li>
+							<li aria-haspopup="true"><a href="faq.html"> Aide</a></li>
+							<li aria-haspopup="true"><a href="contact.html"> Nous Contacter</a></li>
+							
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div><!--/Horizontal-main -->
+
+			<!--Section-->
+			<section>
+				<div class="sptb-2 bannerimg">
+					<div class="header-text mb-0">
+						<div class="container">
+							<div class="text-center text-white py-7">
+								<h1 class="">Paramètres</h1>
+								<ol class="breadcrumb text-center">
+									<li class="breadcrumb-item"><a href="index-text-animation.html">Accueil</a></li>
+									<li class="breadcrumb-item"><a href="mydash.html">Tableau de bord</a></li>
+									<li class="breadcrumb-item active text-white" aria-current="page">Paramètres</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--/Section-->
+		</div>
+	</div>
+
+	<!-- Shape Start -->
+	<div class="relative">
+		<div class="shape overflow-hidden text-white shape-inner">
+			<svg viewBox="0 0 2880 48" fill="none" xmsns="http://www.w3.org/2000/svg">
+				<path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="#f5f4f9"></path>
+			</svg>
+		</div>
+	</div>
+	<!--Shape End-->
+
+	<!--user dashboard-->
+	<section class="sptb">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-12 col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h3 class="card-title">Mon tableau de bord</h3>
+						</div>
+						<div class="card-body text-center item-user border-bottom-0">
+							<div class="profile-pic">
+								<div class="profile-pic-img">
+									<span class="bg-success dots" data-bs-toggle="tooltip" data-bs-placement="top" title="online"></span>
+									<img src="../assets/images/users/female/20.jpg" class="brround" alt="user">
+								</div>
+								<a href="userprofile.html" class="text-dark">
+									<h4 class="mt-3 mb-0 font-weight-semibold">Jacob Smith</h4>
+								</a>
+								<p class="mb-0 mt-1 text-muted">UI/UX Designer</p>
+								<div class="wideget-user-info my-dash-1">
+									<div class="wideget-user-icons mt-2">
+										<a href="javascript:void(0)" class="mt-0"><i class="fa fa-facebook"></i></a>
+										<a href="javascript:void(0)" class=""><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0)" class=""><i class="fa fa-google"></i></a>
+										<a href="javascript:void(0)" class=""><i class="fa fa-dribbble"></i></a>
+										<a href="javascript:void(0)" class=""><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<aside class="app-sidebar doc-sidebar my-dash">
+							<div class="app-sidebar__user clearfix">
+								<ul class="side-menu">
+									<li>
+										<a class="side-menu__item" href="mydash.html"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Editer son profil</span></a>
+									</li>
+									<li>
+										<a class="side-menu__item" href="mycourses.html"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Mes cours</span></a>
+									</li>
+									<li>
+										<a class="side-menu__item" href="orders.html"><i class="side-menu__icon fe fe-shopping-bag"></i><span class="side-menu__label">Mes commandes</span></a>
+									</li>
+									<li>
+										<a class="side-menu__item" href="settings.html"><i class="side-menu__icon fe fe-settings"></i><span class="side-menu__label">Paramètres </span></a>
+									</li>
+									<li>
+										<a class="side-menu__item" href="login.html"><i class="side-menu__icon fe fe-power"></i><span class="side-menu__label">Se déconnecter</span></a>
+									</li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-12">
+					<div class="card mb-0">
+						<div class="card-header">
+							<h3 class="card-title">Paramètres</h3>
+						</div>
+						<div class="card-body">
+							<div class="settings-tab">
+								<ul class="tabs-menu nav">
+									<li class="ms-0"><a href="#tab1" class="active ms-0" data-bs-toggle="tab"><i class="fe fe-settings"></i> Générale</a></li>
+									<li><a href="#tab2" data-bs-toggle="tab" class=""><i class="fe fe-message-square"></i>  Chat</a></li>
+									<li><a href="#tab3" data-bs-toggle="tab" class=""><i class="fe fe-sliders"></i>  Avancé</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active show" id="tab1">
+										<form class="form-horizontal" >
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label" id="examplenameInputname2">Devise</label>
+													</div>
+													<div class="col-md-9">
+														<select data-placeholder="Choose a Language..." class="form-control select2-show-search form-select languages">
+															<option value="0">Choisir votre devise</option>
+															<option value="1">EUR</option>
+															<option value="2">INR</option>
+															<option value="3">USD</option>
+															<option value="4">GBP</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label" id="examplenameInputname3">Langues:</label>
+													</div>
+													<div class="col-md-9">
+														<select data-placeholder="Choose a Language..." class="form-control select2-show-search form-select languages">
+															<option value="0">Choisir votre langue</option>
+															<option value="AF">Afrikanns</option>
+															<option value="SQ">Albanian</option>
+															<option value="AR">Arabic</option>
+															<option value="HY">Armenian</option>
+															<option value="EU">Basque</option>
+															<option value="BN">Bengali</option>
+															<option value="BG">Bulgarian</option>
+															<option value="CA">Catalan</option>
+															<option value="KM">Cambodian</option>
+															<option value="ZH">Chinese (Mandarin)</option>
+															<option value="HR">Croation</option>
+															<option value="CS">Czech</option>
+															<option value="DA">Danish</option>
+															<option value="NL">Dutch</option>
+															<option value="EN">English</option>
+															<option value="ET">Estonian</option>
+															<option value="FJ">Fiji</option>
+															<option value="FI">Finnish</option>
+															<option value="FR">French</option>
+															<option value="KA">Georgian</option>
+															<option value="DE">German</option>
+															<option value="EL">Greek</option>
+															<option value="GU">Gujarati</option>
+															<option value="HE">Hebrew</option>
+															<option value="HI">Hindi</option>
+															<option value="HU">Hungarian</option>
+															<option value="IS">Icelandic</option>
+															<option value="ID">Indonesian</option>
+															<option value="GA">Irish</option>
+															<option value="IT">Italian</option>
+															<option value="JA">Japanese</option>
+															<option value="JW">Javanese</option>
+															<option value="KO">Korean</option>
+															<option value="LA">Latin</option>
+															<option value="LV">Latvian</option>
+															<option value="LT">Lithuanian</option>
+															<option value="MK">Macedonian</option>
+															<option value="MS">Malay</option>
+															<option value="ML">Malayalam</option>
+															<option value="MT">Maltese</option>
+															<option value="MI">Maori</option>
+															<option value="MR">Marathi</option>
+															<option value="MN">Mongolian</option>
+															<option value="NE">Nepali</option>
+															<option value="NO">Norwegian</option>
+															<option value="FA">Persian</option>
+															<option value="PL">Polish</option>
+															<option value="PT">Portuguese</option>
+															<option value="PA">Punjabi</option>
+															<option value="QU">Quechua</option>
+															<option value="RO">Romanian</option>
+															<option value="RU">Russian</option>
+															<option value="SM">Samoan</option>
+															<option value="SR">Serbian</option>
+															<option value="SK">Slovak</option>
+															<option value="SL">Slovenian</option>
+															<option value="ES">IT Coursesnish</option>
+															<option value="SW">Swahili</option>
+															<option value="SV">Swedish </option>
+															<option value="TA">Tamil</option>
+															<option value="TT">Tatar</option>
+															<option value="TE">Telugu</option>
+															<option value="TH">Thai</option>
+															<option value="BO">Tibetan</option>
+															<option value="TO">Tonga</option>
+															<option value="TR">Turkish</option>
+															<option value="UK">Ukranian</option>
+															<option value="UR">Urdu</option>
+															<option value="UZ">Uzbek</option>
+															<option value="VI">Vietnamese</option>
+															<option value="CY">Welsh</option>
+															<option value="XH">Xhosa</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Numéro de téléphone</label>
+													</div>
+													<div class="col-md-9">
+														<div class="form-controls-stacked d-md-flex">
+															<label class="custom-control custom-radio me-4">
+																<input type="radio" class="custom-control-input" name="example-radios3" value="option1" checked>
+																<span class="custom-control-label">Visible pour tout le monde</span>
+															</label>
+															<label class="custom-control custom-radio">
+																<input type="radio" class="custom-control-input" name="example-radios3" value="option2">
+																<span class="custom-control-label">Visible seulement pour les étudiants</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-group mb-0">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label" id="inputPassword5">Profil:</label>
+													</div>
+													<div class="col-md-9">
+														<div class="form-controls-stacked d-md-flex">
+															<label class="custom-control custom-radio me-4">
+																<input type="radio" class="custom-control-input" name="example-radios4" value="option1" checked>
+																<span class="custom-control-label">Visible pour tout le monde</span>
+															</label>
+															<label class="custom-control custom-radio">
+																<input type="radio" class="custom-control-input" name="example-radios4" value="option2">
+																<span class="custom-control-label">Visible seulement pour mes étudiants</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+									<div class="tab-pane" id="tab2">
+										<div class="form-group ">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Taille de la police</label>
+												</div>
+												<div class="col-md-9">
+													<div class="form-controls-stacked d-sm-flex">
+														<label class="custom-control custom-radio me-4">
+															<input type="radio" class="custom-control-input" name="example-radios3" value="option1" checked>
+															<span class="custom-control-label">Petite</span>
+														</label>
+														<label class="custom-control custom-radio me-4">
+															<input type="radio" class="custom-control-input" name="example-radios3" value="option2">
+															<span class="custom-control-label">Medium</span>
+														</label>
+														<label class="custom-control custom-radio">
+															<input type="radio" class="custom-control-input" name="example-radios3" value="option2">
+															<span class="custom-control-label">Large</span>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-group ">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Chat:</label>
+												</div>
+												<div class="col-md-9">
+													<label class="form-switch ps-0">
+														<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+														<span class="form-switch-indicator"></span>
+														<span class="form-switch-description">On/Off</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group ">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Type de chat:</label>
+												</div>
+												<div class="col-md-9">
+													<div class="form-controls-stacked d-md-flex">
+														<label class="custom-control custom-radio me-4">
+															<input type="radio" class="custom-control-input" name="example-radios4" value="option1" checked>
+															<span class="custom-control-label">Chat public</span>
+														</label>
+														<label class="custom-control custom-radio">
+															<input type="radio" class="custom-control-input" name="example-radios4" value="option2">
+															<span class="custom-control-label">Chat privé</span>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-group ">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Autoriser les notifications par mail:</label>
+												</div>
+												<div class="col-md-9">
+													<label class="form-switch ps-0">
+														<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+														<span class="form-switch-indicator"></span>
+														<span class="form-switch-description">On/Off</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group ">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Chat de secours:</label>
+												</div>
+												<div class="col-md-9">
+													<label class="form-switch ps-0">
+														<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+														<span class="form-switch-indicator"></span>
+														<span class="form-switch-description">On/Off</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group mb-0">
+											<div class="row">
+												<div class="col-md-3">
+													<label class="form-label">Supprimer le chat:</label>
+												</div>
+												<div class="col-md-9">
+													<div class="form-controls-stacked d-md-flex">
+														<label class="custom-control custom-radio me-4">
+															<input type="radio" class="custom-control-input" name="example-radios5" value="option1" checked>
+															<span class="custom-control-label">Supprimer le chat lu</span>
+														</label>
+														<label class="custom-control custom-radio">
+															<input type="radio" class="custom-control-input" name="example-radios5" value="option2">
+															<span class="custom-control-label">Supprimer tout</span>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane" id="tab3">
+										<form class="form-horizontal" >
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Cours d'avance automatique:</label>
+													</div>
+													<div class="col-md-9">
+														<label class="form-switch ps-0">
+															<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+															<span class="form-switch-indicator"></span>
+															<span class="form-switch-description">Activer/Désactiver</span>
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label" id="inputEmail4">Couleur du thème:</label>
+													</div>
+													<div class="col-md-9">
+														<div class="form-controls-stacked d-flex">
+															<label class="custom-control custom-radio me-4">
+																<input type="radio" class="custom-control-input" name="example-radios" value="option1" checked>
+																<span class="custom-control-label">Clair</span>
+															</label>
+															<label class="custom-control custom-radio">
+																<input type="radio" class="custom-control-input" name="example-radios" value="option2">
+																<span class="custom-control-label">Sombre</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label" id="inputEmail5">Type de publicité:</label>
+													</div>
+													<div class="col-md-9">
+														<div class="form-controls-stacked d-md-flex">
+															<label class="custom-control custom-radio me-4">
+																<input type="radio" class="custom-control-input" name="example-radios1" value="option1" checked>
+																<span class="custom-control-label">Directe</span>
+															</label>
+															<label class="custom-control custom-radio">
+																<input type="radio" class="custom-control-input" name="example-radios1" value="option2">
+																<span class="custom-control-label">Par conformité coursemin</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Visibilité des commentaires:</label>
+													</div>
+													<div class="col-md-9">
+														<div class="form-controls-stacked d-md-flex">
+															<label class="custom-control custom-radio me-4">
+																<input type="radio" class="custom-control-input" name="example-radios2" value="option1" checked>
+																<span class="custom-control-label">Directe</span>
+															</label>
+															<label class="custom-control custom-radio">
+																<input type="radio" class="custom-control-input" name="example-radios2" value="option2">
+																<span class="custom-control-label">Par conformité coursemin</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Notification système:</label>
+													</div>
+													<div class="col-md-9">
+														<label class="form-switch d-inline-block me-5 ps-0">
+															<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+															<span class="form-switch-indicator"></span>
+															<span class="form-switch-description">On/Off</span>
+														</label>
+														<label class="form-switch d-inline-block"><a href="javascript:void(0)" class="btn-link">Autre paramètre des cours</a></label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Notification mail</label>
+													</div>
+													<div class="col-md-9">
+														<label class="form-switch d-inline-block me-5 ps-0">
+															<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+															<span class="form-switch-indicator"></span>
+															<span class="form-switch-description">On/Off</span>
+														</label>
+														<label class="form-switch d-inline-block"><a href="javascript:void(0)" class="btn-link">Autre paramètre des cours</a></label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group mb-0">
+												<div class="row">
+													<div class="col-md-3">
+														<label class="form-label">Visibilité des commentaires:</label>
+													</div>
+													<div class="col-md-9">
+														<label class="form-switch d-inline-block me-5 ps-0">
+															<input type="checkbox" name="form-switch-checkbox" class="form-switch-input">
+															<span class="form-switch-indicator"></span>
+															<span class="form-switch-description">On/Off</span>
+														</label>
+														<label class="form-switch d-inline-block"><a href="javascript:void(0)" class="btn-link">Autre paramètre des cours</a></label>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<a href="javascript:void(0)" class="btn btn-primary">Sauvegarder les changements</a>
+							<a href="javascript:void(0)" class="btn btn-secondary">Annuler</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/Section-->
+
+	<!--Section-->
+	<!--<section class="cover-image sptb bg-background-1" data-bs-image-src="../assets/images/banners/banner5.jpg">
+		<div class="content-text mb-0">
+			<div class="container">
+				<div class="text-white">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="mt-0">
+								<h1 class="mb-2 font-weight-semibold">Subscribe</h1>
+								<p class="fs-18 mb-0">Many desktop publishing packages and web page editors.</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="mt-4">
+								<div class="input-group sub-input mt-1">
+									<input type="text" class="form-control input-lg  br-ts-7  br-bs-7" placeholder="Enter your Email">
+									<div class="input-group-text ">
+										<button type="button" class="btn btn-secondary btn-lg br-te-7  br-be-7">
+											Subscribe
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	<!--/Section-->
+
+	<!--Section-->
+	<div class="position-relative">
+		<div class="shape overflow-hidden bottom-footer-shape">
+			<svg viewBox="0 0 2880 48" fill="none" xmsns="http://www.w3.org/2000/svg">
+				<path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+			</svg>
+		</div>
+	</div>
+	<!--/Section-->
+
+	<!--Footer Section-->
+	<footer class="bg-dark">
+		<div class="footer-main footer-main1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="row">
+							<div class="col-lg-8 col-md-12">
+								<img src="https://via.placeholder.com/153x44.png" class="w-auto border-0" alt="img">
+								<ul class="list-unstyled mb-0 mt-4">
+									<li>
+										<a href="javascript:void(0)">Cote d'ivoire</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)">trajectoire@gmail.com</a></li>
+									<li>
+										<a href="javascript:void(0)">+ 01 234 567 88</a>
+									</li>
+										<li>
+										<a href="javascript:void(0)">+ 01 234 567 89</a>
+									</li>
+								</ul>
+								<ul class="list-unstyled list-inline mt-5 mb-lg-0 mb-5">
+									<li class="list-inline-item">
+										<a class="social-icons btn-sm rgba-white-slight waves-effect waves-light">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="social-icons btn-sm rgba-white-slight waves-effect waves-light">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="social-icons btn-sm rgba-white-slight waves-effect waves-light">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="social-icons btn-sm rgba-white-slight waves-effect waves-light">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="social-icons btn-sm rgba-white-slight waves-effect waves-light">
+											<i class="fa fa-github"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="row">
+							<div class="col-lg-4 col-md-12">
+								<h6 class="font-weight-normal text-white">Trajectoire</h6>
+								<ul class="list-unstyled mb-lg-0 mb-5">
+									<li><a href="contact.html"><i class="fe fe-chevron-right"></i> Nous contacter</a></li>
+									<li><a href="about.html"><i class="fe fe-chevron-right"></i> A propos de nous</a></li>
+									<li><a href="page-list.html"><i class="fe fe-chevron-right"></i> Cours</a></li>
+									<li><a href="usersall.html"><i class="fe fe-chevron-right"></i>Professeurs</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<h6 class="font-weight-normal text-white d-none">Supplément</h6>
+								<ul class="list-unstyled mb-lg-0 mb-5">
+									<li><a href="shop.html"><i class="fe fe-chevron-right"></i> Boutique</a></li>
+									<li><a href="payments.html"><i class="fe fe-chevron-right"></i> Panier</a></li>
+									<li><a href="faq.html"><i class="fe fe-chevron-right"></i> Aide</a></li>
+									<li><a href="change-establishement.html"><i class="fe fe-chevron-right"></i> Changer d'établissement</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<h6 class="font-weight-normal text-white">Support</h6>
+								<ul class="list-unstyled mb-5 mb-lg-0">
+									<li><a href="index-text-animation.html"><i class="fe fe-chevron-right"></i> Accueil</a></li>
+									<li><a href="javascript:;"><i class="fe fe-chevron-right"></i> Sitemap</a></li>
+									<li><a href="javascript:;"><i class="fe fe-chevron-right"></i> Politique de confidentialité</a></li>
+									<li><a href="javascript:;"><i class="fe fe-chevron-right"></i> Politique des cookies</a></li>
+									<li><a href="javascript:;"><i class="fe fe-chevron-right"></i> Termes & services</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="py-4 footer-main border-bottom bg-dark p-0 border-top-0 border-white-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg">
+						<ul class="payments mb-0 mt-2">
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-cc-amex" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-cc-discover" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="payments-icon text-white-50"><i class="fa fa-google-wallet" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-3 bg-dark">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-lg-12 col-sm-12  mt-2 mb-2 text-center text-white">
+						Copyright © 2022 <a href="javascript:void(0)"  class="fs-14 text-primary">Trajectoire</a>. Conçu avec <span class="fa fa-heart text-danger"></span> par <a href="javascript:void(0)" class="fs-14 text-primary"> IDNET </a> tout droits réservés.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Footer Section-->
+
+	<!-- Back to top -->
+	<a href="#top" id="back-to-top" ><i class="fa fa-long-arrow-up"></i></a>
+
+	<!-- JQuery js-->
+	<script src="../assets/js/jquery.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!--JQuery IT Coursesrkline js-->
+	<script src="../assets/js/jquery.sparkline.min.js"></script>
+
+	<!-- Circle Progress js-->
+	<script src="../assets/js/circle-progress.min.js"></script>
+
+	<!-- Star Rating js-->
+	<script src="../assets/plugins/jquery-bar-rating/jquery.barrating.js"></script>
+	<script src="../assets/plugins/jquery-bar-rating/js/rating.js"></script>
+
+	<!--Horizontal Menu js-->
+	<script src="../assets/plugins/horizontal-menu/horizontal-menu.js"></script>
+
+	<!--JQuery TouchSwipe js-->
+	<script src="../assets/js/jquery.touchSwipe.min.js"></script>
+
+	<!--Select2 js -->
+	<script src="../assets/plugins/select2/select2.full.min.js"></script>
+	<script src="../assets/js/select2.js"></script>
+
+	<!-- Cookie js -->
+	<script src="../assets/plugins/cookie/jquery.ihavecookies.js"></script>
+	<script src="../assets/plugins/cookie/cookie.js"></script>
+
+	<!-- Count Down-->
+	<script src="../assets/plugins/count-down/jquery.lwtCountdown-1.0.js"></script>
+
+	<!-- sticky js-->
+	<script src="../assets/js/sticky.js"></script>
+
+	<!-- Perfect Scrollbar js -->
+	<script src="../assets/plugins/pscrollbar/pscrollbar.js"></script>
+
+	<!-- Internal:: side-menu Js-->
+	<script src="../assets/plugins/toggle-sidebar/sidemenu.js"></script>
+
+	<!--Owl Carousel js -->
+	<script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+	<!-- Scripts js-->
+	<script src="../assets/js/owl-carousel.js"></script>
+
+	<!-- Theme color Js-->
+	<script src="../assets/js/themeColors.js"></script>
+
+	<!-- Switcher Styles Js-->
+	<script src="../assets/js/switcher-styles.js"></script>
+
+	<!-- Custom js-->
+	<script src="../assets/js/custom.js"></script>
+
+</body>
+</html>
