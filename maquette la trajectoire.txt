@@ -1,0 +1,5 @@
+la trajectoire, maquette:
+
+header style 2 et 4 mélangés
+
+footer style 1 a garder
