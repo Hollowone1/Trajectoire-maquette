@@ -21770,8 +21770,7 @@ a[href^=tel] {
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
-    border: 1px solid #ededf5;
-    border-radius: 7px;
+    border: none;
     max-width: 100%;
     height: auto;
 }
@@ -28968,7 +28967,6 @@ video {
 
 .item-card2-img {
     position: relative;
-    overflow: hidden;
     border-radius: 3px 3px 0 0;
 }
 
@@ -29089,7 +29087,7 @@ video {
 }
 
 .item-card9-imgs {
-    overflow: hidden;
+
 }
 
 .item-card9-imgs img {
@@ -57735,5 +57733,23 @@ a.text-light:hover {
 
 .w-lg {
     min-width: 150px;
+}
+
+.sticky-footer{
+    position: -webkit-fixed ;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.footer-links{
+
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.copyrights{
+    padding-bottom: 70px;
 }
 /*# sourceMappingURL=style.css.map */

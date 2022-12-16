@@ -183,11 +183,6 @@
 						<div class="container">
 							<div class="text-center text-white py-7">
 								<h1 class="">Page profil professeur</h1>
-								<ol class="breadcrumb text-center">
-									<li class="breadcrumb-item"><a href="index-text-animation.html">Accueil</a></li>
-									<li class="breadcrumb-item"><a href="usersall.html">Liste des professeurs</a></li>
-									<li class="breadcrumb-item active text-white" aria-current="page">Page profil professeur</li>
-								</ol>
 							</div>
 						</div>
 					</div>
@@ -196,15 +191,20 @@
 		</div>
 	</div>
 
-	<!-- Shape Start -->
-	<div class="relative">
-		<div class="shape overflow-hidden text-white shape-inner">
-			<svg viewBox="0 0 2880 48" fill="none" xmsns="http://www.w3.org/2000/svg">
-				<path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="#f5f4f9"></path>
-			</svg>
+	<!--Breadcrumb-->
+	<div class="bg-white border-bottom">
+		<div class="container">
+			<div class="page-header">
+				<h4 class="page-title"></h4>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index-text-animation.html">Accueil</a></li>
+					<li class="breadcrumb-item"><a href="usersall.html">Liste des professeurs</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Profil professeur</li>
+				</ol>
+			</div>
 		</div>
 	</div>
-	<!--Shape End-->
+	<!--/Breadcrumb-->
 
 	<!--User Profile-->
 	<section class="sptb  profile-1">
@@ -252,17 +252,17 @@
 						<div class="row pb-5">
 							<div class="col-lg-12 col-sm-6 p-1">
 								<div class="text-center">
-									<button type="button" class="btn btn-success w-100">Contacter par téléphone</button>
+									<button type="button" class="btn btn-secondary w-100">Soutien individuel</button>
 								</div>	
 							</div>
 							<div class="col-lg-12 col-sm-6 p-1">
 								<div class="text-center">
-									<button type="button" class="btn btn-success w-100">Contacter par visioconférence</button>
+									<button type="button" class="btn btn-primary w-100">Soutien collectif</button>
 								</div>	
 							</div>
 						</div>
 					</div>
-					<div class="card">
+					<div class="card d-lg-block d-none">
 						<div class="card-header">
 							<h3 class="card-title">Professeurs relatifs</h3>
 						</div>
@@ -349,17 +349,16 @@
 					</div>
 				</div>
 				<div class="col-lg-7 col-xl-9">
-					<div class="">
-						<div class="ps-0 pb-5">
+					<div class="row ">
+						<div class="pb-5">
 							<div class="wideget-user-tab">
 								<div class="tab-menu-heading">
 									<div class="tabs-menu1">
-										<ul class="nav">
+										<ul class="nav justify-content-between">
 											<li class="ms-0"><a href="#tab-5" class="active ms-0" data-bs-toggle="tab">Profil</a></li>
-											<li><a href="#tab-6" data-bs-toggle="tab" class="">Cours donnés</a></li>
-											<li><a href="#tab-7" data-bs-toggle="tab" class="">Cours récents</a></li>
-											<li><a href="#tab-8" data-bs-toggle="tab" class="">Relatifs</a></li>
-											<li><a href="#tab-9" data-bs-toggle="tab" class="">Notes</a></li>
+											<li><a href="#tab-6" data-bs-toggle="tab" class="">Contacter</a></li>
+											<li><a href="#tab-7" data-bs-toggle="tab" class="">Cours</a></li>
+											<li><a href="#tab-9" data-bs-toggle="tab" class="">Avis</a></li>
 										</ul>
 									</div>
 								</div>
@@ -372,32 +371,38 @@
 								<div class="card mb-0">
 									<div class="card-body">
 										<div class="container ">
-											<div class="row p-4 flex-column flex-sm-row align-items-center">
-												<div class="col-4">
-													<div class="counter-status md-mb-0 mt-2 d-flex flex-column align-items-center">
-														<div class="counter-icon bg-primary mx-auto">
+											<div class="row p-5 flex-column flex-sm-row align-items-center">
+												<div class="col-sm-4">
+													<div class="counter-status md-mb-0 mt-2 d-flex flex-sm-column align-items-center">
+														<div class="counter-icon bg-primary mx-auto flex-grow-0">
 															<i class="typcn typcn-group-outline text-white"></i>
 														</div>
-														<h5 class="text-center">Etudiants tutorés</h5>
-														<h4 class="counter mb-0">2569</h4>
+														<div class="d-sm-flex flex-column text-center flex-grow-1">
+															<h4 class="">Etudiants tutorés</h4>
+															<h5>2569</h5>
+														</div>	
 													</div>
 												</div>
-												<div class="col-4">
-													<div class="counter-status status-1 md-mb-0 mt-2 d-flex flex-column align-items-center">
-														<div class="counter-icon bg-primary mx-auto">
+												<div class="col-sm-4">
+													<div class="counter-status status-1 md-mb-0 mt-2 d-flex flex-sm-column align-items-center">
+														<div class="counter-icon bg-primary mx-auto flex-grow-0">
 															<i class="typcn typcn-mortar-board text-white"></i>
 														</div>
-														<h5 class="text-center">Cours donnés</h5>
-														<h4 class="counter mb-0">1765</h4>
+														<div class="d-sm-flex flex-column text-center flex-grow-1">
+															<h4 class="text-center">Cours donnés</h4>
+															<h5>1765</h5>
+														</div>
 													</div>
 												</div>
-												<div class="col-4">
-													<div class="counter-status status md-mb-0 mt-2 d-flex flex-column align-items-center">
-														<div class="counter-icon bg-primary mx-auto">
+												<div class="col-sm-4">
+													<div class="counter-status status md-mb-0 mt-2 d-flex flex-sm-column align-items-center">
+														<div class="counter-icon bg-primary mx-auto flex-grow-0">
 															<i class="typcn typcn-globe-outline text-white"></i>
 														</div>
-														<h5 class="">Certifié</h5>
-														<h4 class="counter mb-0">Trajectoire</h4>
+														<div class="d-sm-flex flex-column text-center flex-grow-1">
+															<h4 class="">Certifié</h4>
+															<h5>Trajectoire</h5>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -407,7 +412,7 @@
 												<h3 class="card-title mb-3 font-weight-bold">Détails personnels</h3>
 											</div>
 											<ul class="usertab-list mb-3">
-												<li><a href="javascript:void(0)"><span class="font-weight-bold text-default-dark">Nom-Prénom :</span> <span class="user-1"> Jacob Smith</span></a></li>
+												<li><a href="javascript:void(0)"><span class="font-weight-bold text-default-dark">Nom complet :</span> <span class="user-1"> Jacob Smith</span></a></li>
 												<li><a href="javascript:void(0)"><span class="font-weight-bold text-default-dark">Pays :</span> <span class="user-1"> USA</span></a></li>
 												<li><a href="javascript:void(0)"><span class="font-weight-bold text-default-dark">Langages :</span> <span class="user-1"> English, German,Vehiclenish</span>.</a></li>
 												<li><a href="javascript:void(0)"><span class="font-weight-bold text-default-dark">Site web :</span><span class="user-1"> smithabgd.com</span></a></li>
@@ -429,267 +434,45 @@
 													<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus how to pursue pleasure rationally encounter but because those who do not know how to pursue consequences that are extremely</p>
 												</div>
 											</div>
-											<div class="row profie-img mt-5">
-												<div class="media-heading">
-													<h3 class="card-title mb-3 font-weight-bold">Réserver un cours</h3>
-												</div>
-											</div>
-											<div class="row pt-2 gap-2">
-												<div class="col-12 col-sm-4 text-center m-auto">
-													<button type="button" class="btn btn-secondary w-100">Soutien individuel</button>
-												</div>
-												<div class="col-12 col-sm-4 text-center m-auto">
-													<button type="button" class="btn btn-primary w-100">Soutien collectif</button>
-												</div>
-											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="tab-pane userprof-tab" id="tab-6">
-								<div class="card bg-transparent border-0 shadow-none mb-0">
-									<div class="card-body p-0">
+								<div class="card border-0 mb-0 single-page customerpage contact">
+									<div class="card-body wrapper wrapper2 box-shadow-0">
 										<div class="row">
-											<div class="col-xl-12 col-lg-12 col-md-12">
-												<div class="row">
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/11.jpg" alt="img" class="cover-image">
-																</div>
-																<div class="item-overly-trans">
-																	<a href="page-details.html" class="bg-primary">Popular</a>
-																</div>
-															</div>
-															<div class="card-body">
-																<div class="item-card9">
-																	<span class="item-card-badge"><i class="fa fa-briefcase me-1"></i> Business</span>
-																	<a href="page-details.html" class="text-default-dark mt-2"><h3 class="mt-2 mb-2">Business Management</h3></a>
-																	<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">4.2</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4" selected>4</option>
-																					<option value="5">5</option>
-																				</select>
-																			</div>
-																		</div>(4,24,525)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>$263.99</h4>
-															</div>
+											<div class="col-lg-7 col-xl-7 col-md-12 mx-auto">
+														<div class="mb-6 text-dark">
+															<h5 class="fs-25 font-weight-semibold">Contacter ce professeur</h5>
 														</div>
-													</div>
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="ribbon ribbon-top-left text-danger"><span class="bg-danger">Offer</span></div>
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/9.jpg" alt="img" class="cover-image">
-																</div>
-																<div class="item-overly-trans">
-																	<a href="page-details.html" class="bg-primary">High Rated</a>
-																</div>
+														<form id="" class="" tabindex="500">
+															<div class="name">
+																<label>Nom complet</label>
+																<input type="text" name="name">
 															</div>
-															<div class="card-body">
-																<div class="item-card9">
-																	<span class="item-card-badge"><i class="fa fa-cube me-1"></i> Networking</span>
-																	<a href="page-details.html" class="text-default-dark"><h3 class="mt-2 mb-2">Networking Classes</h3></a>
-																	<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">5.0</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4">4</option>
-																					<option value="5" selected>5</option>
-																				</select>
-																			</div>
-																		</div>(12,00,525)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>$745.00<span class="strike-text mx-2 text-muted fs-16">$896.00</span></h4>
+															<div class="mail">
+																<label>E-mail</label>
+																<input type="email" name="mail">
 															</div>
-														</div>
-													</div>
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/3.jpg" alt="img" class="cover-image">
-																</div>
-																<div class="item-overly-trans">
-																	<a href="page-details.html" class="bg-blue">Popular</a>
-																</div>
+															<div class="Message">
+																<label>Message</label>
+																<textarea name="example-textarea-input" rows="6" placeholder="Message"></textarea>
 															</div>
-															<div class="card-body">
-																<div class="item-card9">
-																	<span class="item-card-badge"><i class="fa fa-paint-brush me-1"></i> Beautician</span>
-																	<a href="page-details.html" class="text-default-dark mt-2"><h3 class="mt-2 mb-2">Beautician Classes</h3></a>
-																	<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">4.3</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4" selected>4</option>
-																					<option value="5">5</option>
-																				</select>
-																			</div>
-																		</div>(67,525)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>$149.00</h4>
+															<div class="submit text-center pt-2">
+																<a href="javascript:void(0)" class="btn btn-primary">Envoyer un message</a>
 															</div>
-														</div>
-													</div>
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/5.jpg" alt="img" class="cover-image">
-																</div>
-															</div>
-															<div class="card-body">
-																<div class="item-card2">
-																	<div class="item-card2-desc">
-																		<span class="item-card-badge"><i class="fa fa-music me-1"></i> Music</span>
-																		<a href="page-details.html" class="text-default-dark mt-2"><h3 class="mt-2 mb-2">Guitar Classes</h3></a>
-																		<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																	</div>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">4.9</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4" selected>4</option>
-																					<option value="5">5</option>
-																				</select>
-																			</div>
-																		</div>(99,525)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>$13.00</h4>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/16.jpg" alt="img" class="cover-image">
-																</div>
-																<div class="item-overly-trans">
-																	<a href="page-details.html" class="bg-blue">Popular</a>
-																</div>
-															</div>
-															<div class="card-body">
-																<div class="item-card2">
-																	<div class="item-card2-desc">
-																		<span class="item-card-badge"><i class="fa fa-camera me-1"></i> PhotoShop</span>
-																		<a href="page-details.html" class="text-default-dark mt-2"><h3 class="mt-2 mb-2">PhotoShop Design</h3></a>
-																		<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																	</div>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">5.0</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4">4</option>
-																					<option value="5" selected>5</option>
-																				</select>
-																			</div>
-																		</div>(99,525)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>42.00</h4>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-6 col-md-12 col-xl-6">
-														<div class="card overflow-hidden">
-															<div class="item-card9-img">
-																<div class="item-card9-imgs">
-																	<a href="page-details.html"></a>
-																	<img src="../assets/images/media/7.jpg" alt="img" class="cover-image">
-																</div>
-																<div class="item-overly-trans">
-																	<a href="page-details.html" class="bg-primary">Best Sales</a>
-																</div>
-															</div>
-															<div class="card-body">
-																<div class="item-card2">
-																	<div class="item-card2-desc">
-																		<span class="item-card-badge"><i class="fa fa-flask me-1"></i> DataScience</span>
-																		<a href="page-details.html" class="text-default-dark mt-2"><h3 class="mt-2 mb-2">Data Science</h3></a>
-																		<p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-																	</div>
-																</div>
-																<div class="mt-2 mb-2">
-																	<div class="rating-stars d-flex me-5">
-																		<h4 class="font-weight-semibold me-2">5.0</h4>
-																		<div class="star-ratings start-ratings-main clearfix me-3">
-																			<div class="stars stars-example-fontawesome stars-example-fontawesome-sm">
-																				<select class="example-fontawesome" name="rating" autocomplete="off">
-																					<option value="1">1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4" >4</option>
-																					<option value="5" selected>5</option>
-																				</select>
-																			</div>
-																		</div>(1,25,252)
-																	</div>
-																</div>
-																<h4 class="font-weight-semibold fs-20 text-dark"><i class="fe fe-tag mt-0 text-muted fs-18 me-2"></i>$263.99</h4>
-															</div>
-														</div>
-													</div>
-												</div>
+														</form>
 											</div>
 										</div>
 									</div>
-
 								</div>
 								<!--Coursed Listing-->
 							</div>
 							<div class="tab-pane userprof-tab" id="tab-7">
 								<div class="card">
 									<div class="card-body">
-										<h3 class="card-title pt-3 pb-3">Liste des cours donnés par:</h3>
+										<h3 class="card-title pt-3 pb-3">Liste des cours donnés:</h3>
 										<div class="table-responsive">
 											<div class="row">
 												<div class="col-xl-12 col-md-12">
@@ -707,85 +490,71 @@
 																<tr>
 																	<td>1</td>
 																	<td>Webdesigning Courses</td>
-																	<td><span class="btn btn-success btn-sm">Online</span></td>
+																	<td><span class="btn btn-success btn-sm mx-auto w-100">Présentiel</span></td>
 																	<td>2 Months</td>
 																	<td>15-3-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>2</td>
 																	<td>Multimedia Courses</td>
-																	<td><span class="btn btn-success btn-sm">Online</span></td>
+																	<td><span class="btn btn-success btn-sm mx-auto w-100">Présentiel</span></td>
 																	<td>6 Months</td>
 																	<td>22-3-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>3</td>
 																	<td>Business Management Courses</td>
-																	<td><span class="btn btn-danger btn-sm">Offline</span></td>
+																	<td><span class="btn btn-danger btn-sm mx-auto w-100">Distanciel</span></td>
 																	<td>5 Months</td>
 																	<td>25-2-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>4</td>
 																	<td>Software Development Courses</td>
-																	<td><span class="btn btn-danger btn-sm">Offline</span></td>
+																	<td><span class="btn btn-danger btn-sm mx-auto w-100">Distanciel</span></td>
 																	<td>4 months</td>
 																	<td>29-1-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>5</td>
 																	<td>App Development Courses</td>
-																	<td><span class="btn btn-success btn-sm">Online</span></td>
+																	<td><span class="btn btn-success btn-sm mx-auto w-100">Présentiel</span></td>
 																	<td>2 months</td>
 																	<td>12-2-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>6</td>
 																	<td>Photoshop Courses</td>
-																	<td><span class="btn btn-danger btn-sm">Offline</span></td>
+																	<td><span class="btn btn-danger btn-sm mx-auto w-100">Distanciel</span></td>
 																	<td>5 months</td>
 																	<td>15-3-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 																<tr>
 																	<td>7</td>
 																	<td>Web Development Course</td>
-																	<td><span class="btn btn-success btn-sm">Online</span></td>
+																	<td><span class="btn btn-success btn-sm mx-auto w-100">Présentiel</span></td>
 																	<td> 1 month</td>
 																	<td>1-4-2021</td>
 																	<td class="text-center">
 																		<a href="userprofile.html" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fe fe-eye"></i></a>
-																		<a href="edit-posts.html" class="btn btn-outline-success btn-sm me-1" data-bs-toggle="tooltip" data-bs-original-title="Edit"><i class="fe fe-edit"></i></a>
-																		<a href="javascript:void(0)" class="btn btn-outline-danger btn-sm" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fe fe-trash"></i></a>
 																	</td>
 																</tr>
 															</tbody>
