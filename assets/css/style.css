@@ -16404,25 +16404,28 @@ dd {
 
 @media (min-width: 1280px) {
     .tab-content #tab-11 .item-card9-img {
-        width: 400px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .tab-content #tab-11 .item-card9-imgs img,
     .tab-content #tab-11 .item-card2-img img {
-        height: 209px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
 @media (max-width: 1279px) and (min-width: 767px) {
     .tab-content #tab-11 .item-card9-img {
-        width: 450px;
+        width: 100%;
     }
 
     .tab-content #tab-11 .item-card9-imgs img,
     .tab-content #tab-11 .item-card2-img img {
-        height: 300px;
+        height: 100%;
         object-fit: cover;
-        max-height: 100%;
     }
 
     .h-197 {
@@ -19733,7 +19736,9 @@ i.car {
 
     .profile-1 #tab-6 .tab-content #tab-11 .item-card9-imgs img,
     .profile-1 #tab-6 .tab-content #tab-11 .item-card2-img img {
-        height: 215px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     .profile-1 #tab-6 .tab-content #tab-12 h3 {
@@ -19822,7 +19827,9 @@ i.car {
 
     .profile-2 #tab-6 .tab-content #tab-11 .item-card9-imgs img,
     .profile-2 #tab-6 .tab-content #tab-11 .item-card2-img img {
-        height: 215px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     .profile-2 #tab-6 .tab-content #tab-12 h3 {
