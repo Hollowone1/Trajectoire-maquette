@@ -57760,3 +57760,15 @@ a.text-light:hover {
     padding-bottom: 70px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.hoverable-img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.hoverable-img-container:hover .hoverable-img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
